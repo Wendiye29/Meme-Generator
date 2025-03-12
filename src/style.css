@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    background-color: #f0f0f0; 
+  }
+  .img {
+      max-width: 50;  /* Make sure the image does not exceed the container width */
+      height: 50;     /* Maintain the aspect ratio */
+      display: flex;
+      align-items: center;
+      background-color: blueviolet;   /* Remove any inline spacing */
+    }
+  .p{
+      text-decoration: solid;
+      text-shadow: #f0f0f0;
+      text-decoration-color: bisque;
+    }
+    .todo-item{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 30px 20px 0;
+      width: 70%;
+      border-bottom: 1px solid #cecece;
+      font-family: Roboto, sans-serif;
+      font-weight: 100;
+      font-size: 15px;
+      color: #333333;
+  }
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.h{
+  align-items: center;
+
+}
