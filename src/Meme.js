@@ -9,6 +9,7 @@ import g from "./Imgg/8.jpg"
 import hi from "./Imgg/9.jpg"
 import he from "./Imgg/10.jpg"
 import hy from "./Imgg/11.jpg"
+import hg from "./Imgg/12.jpg"
 class Generating extends Component{
 constructor(){
     super()
@@ -17,7 +18,7 @@ constructor(){
         bottomText: "",
         imageIndex:0,
         allImages:[
-            a, df, e, f,g,hi, he, hy
+            a, df, e, f,g,hi, he, hy, hg
         ]
     }
     this.Changing=this.Changing.bind(this)
