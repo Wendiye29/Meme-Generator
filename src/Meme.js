@@ -5,6 +5,10 @@ import a from "./Imgg/1.jpg"
 import df from "./Imgg/4.jpg"
 import e from "./Imgg/5.jpg" 
 import f from "./Imgg/6.jpg"
+import g from "./Imgg/8.jpeg"
+import hi from "./Imgg/8.jpeg"
+import he from "./Imgg/8.jpeg"
+import hy from "./Imgg/8.jpeg"
 class Generating extends Component{
 constructor(){
     super()
@@ -13,7 +17,7 @@ constructor(){
         bottomText: "",
         imageIndex:0,
         allImages:[
-            a, df, e, f
+            a, df, e, f,g,hi, he, hy
         ]
     }
     this.Changing=this.Changing.bind(this)
