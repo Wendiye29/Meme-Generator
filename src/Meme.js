@@ -5,10 +5,10 @@ import a from "./Imgg/1.jpg"
 import df from "./Imgg/4.jpg"
 import e from "./Imgg/5.jpg" 
 import f from "./Imgg/6.jpg"
-import g from "./Imgg/8.jpeg"
-import hi from "./Imgg/8.jpeg"
-import he from "./Imgg/8.jpeg"
-import hy from "./Imgg/8.jpeg"
+import g from "./Imgg/8.jpg"
+import hi from "./Imgg/9.jpg"
+import he from "./Imgg/10.jpg"
+import hy from "./Imgg/11.jpg"
 class Generating extends Component{
 constructor(){
     super()
